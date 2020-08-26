@@ -1,8 +1,8 @@
 class TesteSimples {
 
-  public executar(){
+  public void executar(){
 
-    Atleta atleta = new atleta();
+    Atleta atleta = new Atleta();
     atleta.nome = "Piedade Silva";
     atleta.idade = 36;
 
