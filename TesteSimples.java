@@ -1,6 +1,6 @@
 class TesteSimples {
 
-  public void executar(){
+  public void executar() {
 
     Atleta atleta = new Atleta();
     atleta.setNome("Piedade Silva");
