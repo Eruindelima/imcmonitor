@@ -10,5 +10,5 @@ Trata-se de um sistema de controle de imc (indice de massa corporal) para coach 
 - encapsulamento simples om get/set (privando acesso aos atribudos)
 - teste unitário, simples
 - teste unitário, com código e manipulação de Exception
-
+- organização de pastas (inicial) e testes.
 
