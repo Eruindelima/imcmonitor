@@ -6,9 +6,11 @@ Trata-se de um sistema de controle de imc (indice de massa corporal) para coach 
 
 
 ######## Histórioco e evolução
-- entidade simples (Atleta)
-- encapsulamento simples om get/set (privando acesso aos atribudos)
-- teste unitário, simples
-- teste unitário, com código e manipulação de Exception
-- organização de pastas (inicial) e testes.
+- [x] Entidade simples (Atleta)
+- [x] Encapsulamento simples om get/set (privando acesso aos atribudos)
+- [x] Teste unitário, simples
+- [x] Teste unitário, com código e manipulação de Exception
+- [x] Organização de pastas (inicial) e testes
+- [ ] Manipulação de Coleções de dados (ArrayList, Map, Set, Resultiset, XML, Json, )
+
 
