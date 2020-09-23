@@ -59,12 +59,15 @@ class TelaConsoleMenu {
 
     private void listarAtletas(){
 
-    System.out.println("Listagem de Atletas:");
+    System.out.println("\nListagem de Atletas:");
 
-
-    cont i = 1;
+    if(matriculas.size() > 0){
+    int cont = 1;
     for(Atleta atemp : matriculas){
-      System.out.println(i++ + ") " + atemp.getNome() + " (" + atemp.getIdade() + ")");
+      System.out.println(cont++ + ") " + atemp.getNome() + " (" + atemp.getIdade() + ")");
+      }
+    } else {
+      System.out.println("Nenhum atleta matriculado!");
     }
-  } 
+  }
 }
